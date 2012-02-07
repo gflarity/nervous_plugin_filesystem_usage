@@ -1,0 +1,34 @@
+{
+  "name": "nervous_plugin_filesystem_usage",
+  "preferGlobal": false,
+  "version": "0.1.0",
+  "author": "Geoff Flarity <geoff.flarity@gmail.com>",
+  "description": "a simple filesystem usage (% full) plugin for Nervous",
+  "contributors": [ 
+    {
+      "name": "Geoff Flarity",
+      "email": "geoff.flarity@gmail.com"
+    } 
+  ],
+  "main": "./index.js",
+  "keywords": [
+    "nervous",
+    "monitor", 
+    "monitoring",
+    "plugable",
+    "plugin",
+    "filesystem",
+    "usage'    
+  ],
+  "dependencies" : {
+  },
+  "noAnalyze": true,
+  "devDependencies": {
+  },
+  "bundleDependencies": [
+  ],
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.6"
+  }
+}
