@@ -1,3 +1,4 @@
 # About
 
-This is a plugin for memcached which can be used to monitor filesystem usage (%). 
+This is a plugin for Nervous which monitors filesystem usage (%). 
+
