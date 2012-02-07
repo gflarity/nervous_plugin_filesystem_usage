@@ -13,10 +13,10 @@ module.exports = function( axon ) {
     var on_exec_complete = function( err, stdout, stderr ) {
     
         var lines = stdout.split('\n');
-        var payload = lines[1];
-    
-        var matches = payload.match(/(\d+)\%/ );
-    
+	lines.pop();
+        var payload = lines.pop();
+
+        var matches = payload.match(/(\d+)\%/ );    
         if ( matches && matches[1] ) {            
             capacity = matches[1];
             axon.emit( 'data',  filesystem_name, capacity );
