@@ -1,7 +1,7 @@
 {
   "name": "nervous_plugin_filesystem_usage",
   "preferGlobal": false,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Geoff Flarity <geoff.flarity@gmail.com>",
   "description": "a simple filesystem usage (% full) plugin for Nervous",
   "contributors": [ 
