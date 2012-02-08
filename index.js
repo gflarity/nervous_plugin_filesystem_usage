@@ -28,7 +28,7 @@ module.exports = function( axon ) {
     
     //this checks it
     var check_filesystem_usage = function() {
-        child_process.exec( 'df -h' + filesystem, on_exec_complete );
+        child_process.exec( 'df -h ' + filesystem, on_exec_complete );
     };
 
     setInterval( check_filesystem_usage, interval );
